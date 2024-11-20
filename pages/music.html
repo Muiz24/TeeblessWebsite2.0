@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teebless Music Page</title>
+    <link href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" rel="stylesheet" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link href="assets/css/music.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap">
+</head>
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo">Teebless</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item"><a href="pages/index.html" class="navbar__links">Home</a></li>
+                <li class="navbar__item"><a href="pages/music.html" class="navbar__links active">Music</a></li>
+                <li class="navbar__item"><a href="pages/video.html" class="navbar__links active">Videos</a></li>
+                <li class="navbar__item"><a href="pages/record.html" class="navbar__links active">Record Label</a></li>
+                <li class="navbar__item"><a href="pages/booking1.html" class="navbar__links active">Bookings</a></li>
+                <li class="navbar__btn"><a href="/signup.html" class="button">Sign Up</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Music Section -->
+    <section class="music">
+        <div class="music__header">
+            <h1>Discover Teebless's Greatest Hits</h1>
+            <p>Experience the vibes, energy, and passion of Teebless's music.</p>
+        </div>
+        <div class="music__container">
+            <!-- Music Card 1 -->
+
+    <div class="music__card">
+        <img src="assets/images/teebless.jpg" alt="Song Artwork">
+        <h2>Song Title</h2>
+        <p>Description</p>
+        <button onclick="playAudio(this, 'assets/media/music/Teebless - Normally_.mp3', 'https://external-link.com')">Listen Now</button>
+        <audio class="audio-sample" src="assets/media/music/Teebless - Normally_.mp3"></audio>
+    </div>
+    
+    <div class="music__card">
+        <img src="assets/media/images/apalanewsounds.jpg" alt="Apala New Sounds">
+        <h2>Apala New Sounds</h2>
+        <p><ol>
+            <li> Tonight ft Nuzak</li>
+            <li> ⁠Hold Me ft Zikid</li>
+            <li> ⁠Apala Vibes</li> 
+            <li> Dangerous ft Defizy</li> 
+            <li> ⁠Highness</li> 
+            <li> ⁠High Way ft Marquest</li>
+        </ol>
+        Released Date: April 29, 2021
+        </p>
+        <button onclick="playAudio(this, 'assets/media/music/Teebless - Normally_.mp3', 'https://audiomack.com/itsteebless/album/apala-new-sounds-1?share-user-id=14062367')">Listen Now</button>
+        <audio class="audio-sample" src="assets/media/music/Teebless - Normally_.mp3"></audio>
+    </div>
+    
+    
+    <div class="music__card">
+        <img src="assets/media/images/halleartwort.jpg" alt="Hallelujah">
+        <h2>Hallelujah</h2>
+        <p>Description</p>
+        <button onclick="playAudio(this, 'assets/media/music/Teebless ft Khedomania _Hallelujah.mp3', 'https://external-link.com')">Listen Now</button>
+        <audio class="audio-sample" src="assets/media/music/Teebless ft Khedomania _Hallelujah.mp3"></audio>
+    </div>
+
+    <div class="music__card">
+        <img src="assets/media/images/differentvibes.jpg" alt="Different Vibes EP">
+        <h2>Song Title</h2>
+        <p>
+            <ol><li>.No Stress</li>
+            <li>.Hustle ft J Weezy </li>
+            <li>.Farabale ft Vibbes & Richiey</li>
+            <li>.⁠Money ft Nuzak</li>
+            <li>.⁠Love Again 2.0 ft Taji </li>
+            </ol>
+            
+            Released Date: January 11, 2023
+            </p>
+        <button onclick="playAudio(this, 'path-to-audio.mp3', 'https://audiomack.com/itsteebless/album/different-vibes-ep-1?share-user-id=14062367')">Listen Now</button>
+        <audio class="audio-sample" src="path-to-audio.mp3"></audio>
+    </div>
+    <div class="music__card">
+        <img src="assets/media/images/alayeartwork.jpg" alt="Song Artwork">
+        <h2>Alaye</h2>
+        <p>Description</p>
+        <button onclick="playAudio(this, 'assets/media/music/Teebless ft Nuzak _ Alaye.mp3', 'https://external-link.com')">Listen Now</button>
+        <audio class="audio-sample" src="assets/media/music/Teebless ft Nuzak _ Alaye.mp3"></audio>
+</div>
+</section>
+
+<div class="music__card">
+    <img src="assets/media/images/energyartwork.jpg" alt="Energy EP">
+    <h2>Song Title</h2>
+    <p>
+        <ol><li>. I Want </li>
+        <li>.Love Again ft. Taji</li>
+        <li>.Adura ft. Nuzak</li>
+        </ol>
+        
+        Released Date:April 28, 2020
+
+
+        </p>
+    <button onclick="playAudio(this, 'path-to-audio.mp3', 'https://audiomack.com/itsteebless/album/energyep?share-user-id=14062367')">Listen Now</button>
+    <audio class="audio-sample" src="path-to-audio.mp3"></audio>
+</div>
+
+<!-- Footer Section -->
+<footer class="footer">
+    <div class="footer__content">
+        <p>Follow Teebless on Social Media</p>
+        <div class="social-icons">
+            <a href="https://music.apple.com/us/artist/teebless/1597579044" target="_blank"> <i class="fab fa-apple"></i></a>
+                <a href="https://open.spotify.com/artist/6EJxmICFq3EsuuVzEjPinC?" target="_blank"><i class="fab fa-spotify"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=61568443234639&mibextid=LQQJ4d" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://x.com/itsteebless?s=21" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/itsteeblesss?igsh=dDZ2dzllcnhzdTc3&utm_source=qr" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/channel/TeeblessOfficial" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="https://audiomack.com/itsteebless" target="_blank"><i class="fab fa-music"></i></a>
+        </div>
+    </div>
+</footer>
+
+
+<script src="assets/js/music.js"> </script>
+</body>
+</html>
